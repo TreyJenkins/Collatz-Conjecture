@@ -25,7 +25,7 @@ int ntoo(int n) {
 }
 
 int ntod(int m, int max) {
-    int i, n;
+    int n;
 
     n = m;
 
@@ -37,7 +37,7 @@ int ntod(int m, int max) {
     int res[2];
 
     for (uintmax_t v = n; v <= max; v++) {
-        i = 0;
+        int i = 0;
         int c = v;
         while (c > 1) {
             //printf("%i -> ", (int) c);
